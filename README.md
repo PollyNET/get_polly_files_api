@@ -1,11 +1,12 @@
 ## Description
-This tool allows fetching polly level0b data from the rsd2-server.
+This tool allows fetching polly level0b data from the rsd2-server. 
 
 ## Requirements:
 For fetching data you only need the requests python-package in your python environment.
 Furthermore an API-key is necessary to access the data.
 
 ## Usage
+You only need the file ```fetch_polly_data.py``` for fetching data.
 ```
   -h, --help            show this help message and exit
   --site SITE           Site name

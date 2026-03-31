@@ -42,10 +42,10 @@ The ```--download``` switch will activate the download of available files:
 ```
 fetch_polly_data.py --site leipzig --date 20260326 --api-key 1234-abcd-5678 --download
 ```
+Optionally you can set the directory to download to with ```--download_dir```.
 
 ### Option 2
-
-Optionally you can set the directory to download to with ```--download_dir```.
+Using the API directly:
 
 ```
 curl -H "X-API-Key: $your-secret-API-key"  "https://rsd2.tropos.de/polly_api/api?&site=leipzig&date=20250626" | jq

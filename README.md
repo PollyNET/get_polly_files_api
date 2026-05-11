@@ -25,7 +25,7 @@ Using ```fetch_polly_data.py``` for fetching data.
 #### Example usage:
 Checking availability of polly level0b data:
 ```
-fetch_polly_data.py --site leipzig --date 20260326 --api-key 1234-abcd-5678
+python3 fetch_polly_data.py --site leipzig --date 20260326 --api-key 1234-abcd-5678
 ```
 returns:
 ```
@@ -40,7 +40,7 @@ returns:
 
 The ```--download``` switch will activate the download of available files:
 ```
-fetch_polly_data.py --site leipzig --date 20260326 --api-key 1234-abcd-5678 --download
+python3 fetch_polly_data.py --site leipzig --date 20260326 --api-key 1234-abcd-5678 --download
 ```
 Optionally you can set the directory to download to with ```--download_dir```.
 

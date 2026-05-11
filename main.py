@@ -37,7 +37,7 @@ API_KEY_MAP: Dict[str, List[str]] = con["api_keys"]
 # Secret key used to sign tokens (keep private!)
 SECRET_KEY = con["api_token_generation_key"]
 # Token expiration in seconds (e.g., 5 minutes)
-TOKEN_MAX_AGE = 60
+TOKEN_MAX_AGE = 300
 
 serializer = URLSafeTimedSerializer(SECRET_KEY)
 
